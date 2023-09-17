@@ -32,3 +32,67 @@
     </main>
 </body>
 </html>
+
+
+
+/* CSS files */
+
+/* Reset some default styles for consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation */
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+nav li {
+    margin-bottom: 5px;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+/* Style each training section */
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+/* Add responsive design rules */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+    nav ul {
+        padding: 5px;
+    }
+    main {
+        padding: 10px;
+    }
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
